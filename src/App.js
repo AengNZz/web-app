@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import './App.css';
+import Header from './components/Header/header';
 
+const telegram = window.Telegram.WebApp;
 
 function App() {
 
@@ -8,11 +10,9 @@ function App() {
     telegram.ready();
   }, [])
 
-
-
   return (
     <div className="App">
-
+    
     </div>
   );
 }
