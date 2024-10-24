@@ -17,10 +17,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Routes>
+      <Routers>
         <Route index element={<ProductList />} />
-        <Route path={'from'} element={<Form />} />
-      </Routes>
+        <Route path={'form'} element={<Form />} />
+      </Routers>
     </div>
   );
 }
