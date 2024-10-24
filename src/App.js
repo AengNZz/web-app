@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
 
-  const {telegram, onToggleButton} = useTelegram();
+  const { telegram, onToggleButton } = useTelegram();
 
   useEffect(() => {
     telegram.ready();
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header></Header>
+      <Header />
       <button onClick={onToggleButton}>Переключение</button>
     </div>
   );
